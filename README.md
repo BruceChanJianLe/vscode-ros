@@ -1,4 +1,4 @@
-# vsocde ROS
+# vscode ROS
 
 Use the configuration below for your vscode. ROS extension may not configurate your vscode intellisense correctly. Hence, one may use the preconfigurate file in this repository.
 
