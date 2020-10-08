@@ -22,3 +22,7 @@ Use the configuration below for your vscode. ROS extension may not configure you
     "version": 4
 }
 ```
+
+## intelliSenseMode Choice
+
+Choices that have been verified to be working are `clang-64` and `gcc-x64`.
