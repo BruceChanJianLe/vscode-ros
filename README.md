@@ -10,7 +10,8 @@ Use the configuration below for your vscode. ROS extension may not configure you
             "includePath": [
                 "${workspaceFolder}/**",
                 "/opt/ros/melodic/include/**",
-                "${workspaceFolder}/include"
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/../../devel/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
