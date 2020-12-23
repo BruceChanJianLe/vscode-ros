@@ -1,0 +1,19 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/chanjl/test_ws/devel/lib/python2.7/dist-packages",
+        "/home/chanjl/isera2_prep_box/isera2/devel/lib/python2.7/dist-packages",
+        "/home/chanjl/isera2_prep_box/isera2_pack_pba/devel/lib/python2.7/dist-packages",
+        "/home/chanjl/isera2_prep_box/vision_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ],
+    "c-cpp-flylint.clang.includePaths": [
+        "/opt/ros/melodic/include/",
+        "${workspaceFolder}/include/",
+        "${workspaceFolder}/../../devel/include/",
+    ],
+    "c-cpp-flylint.cppcheck.includePaths": [
+        "/opt/ros/melodic/include/",
+        "${workspaceFolder}/include/",
+        "${workspaceFolder}/../../devel/include/",
+    ]
+}
