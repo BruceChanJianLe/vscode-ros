@@ -27,3 +27,27 @@ Use the configuration below for your vscode. ROS extension may not configure you
 ## intelliSenseMode Choice
 
 Choices that have been verified to be working are `clang-64` and `gcc-x64`.
+
+## settings.json
+
+```json
+{
+    "python.autoComplete.extraPaths": [
+        "/home/chanjl/test_ws/devel/lib/python2.7/dist-packages",
+        "/home/chanjl/isera2_prep_box/isera2/devel/lib/python2.7/dist-packages",
+        "/home/chanjl/isera2_prep_box/isera2_pack_pba/devel/lib/python2.7/dist-packages",
+        "/home/chanjl/isera2_prep_box/vision_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ],
+    "c-cpp-flylint.clang.includePaths": [
+        "/opt/ros/melodic/include/",
+        "${workspaceFolder}/include/",
+        "${workspaceFolder}/../../devel/include/",
+    ],
+    "c-cpp-flylint.cppcheck.includePaths": [
+        "/opt/ros/melodic/include/",
+        "${workspaceFolder}/include/",
+        "${workspaceFolder}/../../devel/include/",
+    ]
+}
+```
