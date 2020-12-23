@@ -40,11 +40,13 @@ Choices that have been verified to be working are `clang-64` and `gcc-x64`.
         "/opt/ros/melodic/lib/python2.7/dist-packages"
     ],
     "c-cpp-flylint.clang.includePaths": [
+        // It will be better to not include the ROS headers
         "/opt/ros/melodic/include/",
         "${workspaceFolder}/include/",
         "${workspaceFolder}/../../devel/include/",
     ],
     "c-cpp-flylint.cppcheck.includePaths": [
+        // It will be better to not include the ROS headers
         "/opt/ros/melodic/include/",
         "${workspaceFolder}/include/",
         "${workspaceFolder}/../../devel/include/",
