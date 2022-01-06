@@ -63,3 +63,8 @@ Here is how the `settings.json` should look like.
     "ros.distro": "galactic"
 }
 ```
+
+Else you may get error like:
+```bash
+(command 'ros.updateCppProperties' not found)
+```
