@@ -53,3 +53,13 @@ Choices that have been verified to be working are `clang-64` and `gcc-x64`.
     ]
 }
 ```
+
+Do note that in recent ROS1 and ROS2 system, you will need to specify which ROS you are using before you can run any related command to the `ROS` extension on vscode.
+
+Here is how the `settings.json` should look like.
+
+```json
+{
+    "ros.distro": "galactic"
+}
+```
